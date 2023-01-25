@@ -1,6 +1,5 @@
 import React from 'react';
 import './Card.css';
-import axios from 'axios';
 
 
 function Card({title, imageUrl, text}) {

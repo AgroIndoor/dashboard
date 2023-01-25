@@ -1,9 +1,12 @@
 .card-container {
-    width: 300px;
+    width: 260px;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
     transition: 0.25s;
     border-radius: 5px;
+    padding: 10px;
+    margin-block-end: 1rem;
+    margin-inline-end: 1.5rem;
 }
 
 .card-container:hover {
@@ -19,4 +22,22 @@
 
 .card-title {
     margin-bottom: -10px;
+}
+
+
+.sensor-card-container {
+
+    border: 1px solid white;
+    border-radius: 5%;
+    height: 4rem;
+    width: 10rem;
+    background-color: rgb(161, 165, 165);
+}
+
+.sensor-card-title {
+   font-size: 0.75rem; 
+}
+
+.sensor-card-icon {
+    width: 64px;
 }
