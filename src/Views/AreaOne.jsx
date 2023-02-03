@@ -1,17 +1,14 @@
 import React from 'react'
-import SensorCard from '../Components/Card/SensorCard'
-import humidity from '../assets/humidity.svg';
-import temperature from '../assets/temperature.svg';
-import ph from '../assets/pH.svg';
+import { FaBeer } from "react-icons/fa";
+import SensorBox from '../Components/Card/SensorBox';
+
+
 
 function AreaOne() {
   return (
-    <>AreaOne
-      <SensorCard
-        title={"Temperatura"}
-        iconUrl={temperature}
-        values='1'
-      />
+    <>
+    <SensorBox/>
+      Area Um
     </>
   )
 }

@@ -6,7 +6,6 @@ import '../App.css'
 import Card from '../Components/Card/Card'
 import { Link } from 'react-router-dom'
 
-
 function Home() {
 
 

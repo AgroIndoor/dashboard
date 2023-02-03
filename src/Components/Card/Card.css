@@ -41,3 +41,54 @@
 .sensor-card-icon {
     width: 64px;
 }
+
+.dashboardLayout-grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboardLayout-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.dashboardLayout-boxes-item {
+    text-align: center;
+    border: 2px solid #efefef;
+    border-radius: 4px;
+    padding: 0 30px;
+}
+
+.dashboardLayout-boxes-item .value {
+     font-size: 32px;
+
+}
+
+.dashboardLayout-boxes-item .label {
+    margin-top: 6px;
+    font-weight: 400;
+}
+
+.dashboardLayout-boxes-item .blue .value {
+    color: #140faa;
+  }
+  
+  .dashboardLayout-boxes-item .green .value {
+    color: #8fcfa7;
+  }
+  .dashboardLayout-boxes-item .red .value {
+    color: #dd201a;
+  }
+
+  .chart{
+    
+
+  }
+
+  .chartSensor{
+    width: 1200px;
+  }
+
+  
