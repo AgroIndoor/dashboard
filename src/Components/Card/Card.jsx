@@ -9,7 +9,7 @@ function Card({title, imageUrl, text}) {
             <img src={imageUrl} alt=""/>
         </div>
         <div className="card-title">
-            <h3>{title}</h3>
+            <h1>{title}</h1>
         </div>
         <div className="card-text">
            <p>{text}</p>

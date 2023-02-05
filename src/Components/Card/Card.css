@@ -4,14 +4,14 @@
     box-shadow: 0px 0px 15px -5px;
     transition: 0.25s;
     border-radius: 5px;
-    padding: 10px;
+
     margin-block-end: 1rem;
-    margin-inline-end: 1.5rem;
+    margin-inline-end: 1.7rem;
 }
 
 .card-container:hover {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 2em #00ff55aa);
+    filter: drop-shadow(0 0 2em #ff79c6);
     box-shadow: 0px 0px 15px 0px;
 }
 
@@ -21,7 +21,9 @@
 }
 
 .card-title {
-    margin-bottom: -10px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 0.5em;
 }
 
 
@@ -29,17 +31,21 @@
     justify-content: center;
     border: 1px solid white;
     border-radius: 5%;
-    height: 4rem; 
+    height: 4rem;
     width: 10rem;
     background-color: rgb(161, 165, 165);
 }
 
 .sensor-card-title {
-   font-size: 0.75rem; 
+   font-size: 0.75rem;
 }
 
 .sensor-card-icon {
     width: 64px;
+}
+
+.dashboard_title{
+    font-size: 2.5rem;
 }
 
 .dashboardLayout-grid{
@@ -55,40 +61,68 @@
 }
 
 .dashboardLayout-boxes-item {
-    text-align: center;
+    height: 100%;
+    margin: 0 !important;
     border: 2px solid #efefef;
     border-radius: 4px;
-    padding: 0 30px;
+    width: 200px !important;
 }
 
 .dashboardLayout-boxes-item .value {
      font-size: 32px;
-
 }
 
+
 .dashboardLayout-boxes-item .label {
-    margin-top: 6px;
-    font-weight: 400;
+    margin-top: 10px;
+    font-weight: bolder;
+    color:#f8f8f2 ;
 }
 
 .dashboardLayout-boxes-item .blue .value {
-    color: #140faa;
+    color: blue;
   }
-  
+  .dashboardLayout-boxes-item .white .value {
+    color: #f8f8f2;
+  }
+
   .dashboardLayout-boxes-item .green .value {
-    color: #8fcfa7;
+    color: #50fa7b;
   }
   .dashboardLayout-boxes-item .red .value {
-    color: #dd201a;
+    color: #ff5555;
   }
 
-  .chart{
-    
+.buttons{
+    display: grid;
+    text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  height: 100px;
+}
+ .buttons .pad {
 
+
+ }
+  .dashboardLayout_grid_chart{
+    margin-left: 1.25em;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #bd93f9;
+    border-radius: 5px;
   }
+.chart{
+    width: 250px;
 
-  .chartSensor{
-    width: 1200px;
-  }
+}
 
-  
+.chartSensor{
+    width: 700px;
+    height: 300px;
+
+}
+
+.card_btn {
+    margin-top: 2.25em;
+}

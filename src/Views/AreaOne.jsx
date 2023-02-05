@@ -1,14 +1,13 @@
 import React from 'react'
-import { FaBeer } from "react-icons/fa";
 import SensorBox from '../Components/Card/SensorBox';
-
-
+import LineChart from '../Components/Chart/LineChart';
+import TestFeature from '../Components/Card/TestFeature';
 
 function AreaOne() {
   return (
     <>
-    <SensorBox/>
-      Area Um
+        <h1 className='dashboard_title'>Dashboard AgroIndoor</h1>
+      <TestFeature/>
     </>
   )
 }
